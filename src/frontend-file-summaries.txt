@@ -1,0 +1,22 @@
+{
+  "frontend/src/index.css": "Custom design system with modern tech-savvy OKLCH color palette featuring deep blues, vibrant cyans, and gradient utilities for the PETEWRBUILTWL brand identity.",
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup including routes for dashboard, apps, payments, donations, app wizard, stress testing, and all existing pages with theme provider integration.",
+  "frontend/src/components/Layout.tsx": "Root layout component that wraps all pages with header, footer, and profile setup modal.",
+  "frontend/src/components/Header.tsx": "Sticky header with PETERBUILTWL logo, enhanced dropdown navigation menu including dashboard, apps, payments, donations, and stress test links for authenticated users, theme toggle, user profile display, and authentication controls.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, caffeine.ai attribution with heart icon, and updated PETERBUILTWL + $DSWENTWORTH branding.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup with PETERBUILTWL welcome message, integrated founder biography display featuring executive summary, portrait, skills, and mission statement with elite gradient styling.",
+  "frontend/src/pages/HomePage.tsx": "Enhanced landing page showcasing the unified portfolio control center with hero section, platform features, featured applications preview, and call-to-action sections with updated branding.",
+  "frontend/src/pages/BlogGeneratorPage.tsx": "Multi-step workflow page for blog generation with input form, payment integration using createCheckoutSession with ShoppingItem array, and output display with copy/download features.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Success page displayed after successful Stripe payment with next steps and navigation options.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Failure page displayed when payment is cancelled or fails, with troubleshooting tips and retry options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including apps fetching, user profile management, founder profile retrieval, Stripe checkout session creation, implementation library data retrieval, stress test execution, and last stress test results retrieval.",
+  "frontend/src/pages/AboutPage.tsx": "Dedicated founder biography page with professional executive summary, portrait, core skills, mission statement, enhanced PETERBUILTWL context, corporate-ready styling with gradient accents, and link to Implementation Library.",
+  "frontend/index.html": "HTML entry point with updated page title using correct PETERBUILTWL brand spelling.",
+  "frontend/src/pages/ImplementationLibraryPage.tsx": "Production-ready Implementation Library page with polished professional summary, expandable interactive cards for current and future goals, high-contrast PETERBUILTWL corporate styling with cyan gradients and dark navy backgrounds, smooth animations, and CTA linking to About page.",
+  "frontend/src/pages/DashboardPage.tsx": "Centralized control center dashboard displaying real-time KPIs (revenue, subscriptions, runs, error rate, donations), live activity feed, and quick action buttons for authenticated users.",
+  "frontend/src/pages/AppsPage.tsx": "Complete app portfolio page displaying all 11 AI applications with icons, descriptions, pricing models, and launch buttons, plus app wizard access for authenticated users.",
+  "frontend/src/pages/PaymentsPage.tsx": "Payment management page showing payment statistics, transaction history table, and active subscriptions list for authenticated users.",
+  "frontend/src/pages/DonationsPage.tsx": "Donation system page with $DSWENTWORTH branding, donation KPI tracking, donation form with quick amount selection, anonymization toggle, and recent donors list.",
+  "frontend/src/pages/AppWizardPage.tsx": "Multi-step wizard interface for creating custom AI applications with configuration for name, description, input fields, payment model, and output type for authenticated users.",
+  "frontend/src/pages/StressTestPage.tsx": "Enhanced large-scale stress testing page simulating 5,000 concurrent users across 150 applications with 177 workflow stages, featuring real-time performance metrics, dynamic progress tracking, comprehensive analytics visualization, bottleneck detection, automated report generation with downloadable JSON reports, and detailed execution logs with phase-based monitoring."
+}
